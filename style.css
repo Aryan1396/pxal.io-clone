@@ -1,0 +1,416 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+  
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    color: #fefefe;
+    background-color: #000;
+
+}
+
+ video{
+    width: 110px;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+
+.Right{
+    margin-top: 50px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.Right > ul{
+    display: flex;
+    gap: 120px;
+    font-size: 18px;
+    list-style: none;
+    cursor: pointer;
+}
+
+/* -----------------------------------------------hero------------------------------------
+ */
+ .hero {
+    color: #fefefe;
+    background-color: #000;
+    height: 100vh   ;
+ }
+
+
+
+ .left-text > h2{
+    padding-top: 160px;
+    margin-left: 120px;
+    line-height: 80px;
+    font-size: 60px;
+    width: 650px;
+    z-index: 99;
+    
+ }
+
+ .left-text > p{
+    margin-top: 50px;
+    margin-left: 120px;
+    font-size: 22px;
+    width: 550px;
+    z-index: 99;
+ }
+
+ .left-text > button{
+    margin-top: 70px;
+    margin-left: 150px;
+    font-size: 20px;
+    width: 150px;
+    height: 60px;
+    background: #040404f9;
+    color: white;
+    box-shadow: 0 4px 20px 5px rgba(76,111,156,.5);
+    border: none;
+    z-index: 99;
+ }
+
+.right-img > img{
+   display: flex;
+    margin-left: 45%;
+    margin-top: -600px;
+   position: absolute;
+    height: 800px;
+    width: 700px;
+}
+
+/* --------------------------------sceond-page----------------------------------- */
+.second-page{
+    /* border: 3px solid; */
+    color: #fefefe;
+    background-color: #000;
+}
+
+.second-text{
+    color: #000;
+    padding-top: 280px;
+    margin-left: 100px;
+    font-size: 45px;
+    width: 1350px;
+    opacity: 1;
+}
+
+/* ----------------------------------------third-page------------------------------ */
+.third-page{
+    position: relative;
+    margin-top: 200px;
+    background-color: #fefefe;
+    color: #000;
+}
+
+.img-left{
+    position: absolute;
+    margin-left: 100px;
+}
+
+.img-left > img{
+    position: absolute;
+   width: 550px;
+}
+.img-left > #second-img-second-page{
+    margin-left: 360px;
+    padding-top: 270px;
+    width: 300px;
+}
+
+.right-text-third-page{
+    width: 700px;
+    padding-left: 822px;
+    
+}
+
+.right-text-third-page > h2{
+    font-size: 56px;
+    width: 640px;
+    line-height: 60px;
+    font-weight: 500;
+    padding-top: 45px;
+}
+
+.right-text-third-page > p{
+    font-size: 20px;
+    width: 640px;
+   line-height: 28px;
+    font-weight: 500;
+    padding-top: 60px;
+}
+
+.right-text-third-page > button{
+    width: 180px;
+    height: 50px;
+    margin-top: 70px;
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* ---------------------------------------fourth-page---------------------------------- */
+.fourth-page{
+    padding: 0px 100px 0px 100px;
+    margin-top: 350px;
+    align-items: center;
+    background-color: #000;
+    color: #fefefe;
+    border-radius: 40px;
+}
+
+#Patel-aryan-1{
+    background: #000;
+    height: 500px;
+}
+
+.heading-of-fourth-page>h2{
+    font-size: 68px;
+    width: 350px;
+    font-weight: 500;
+    padding-top: 80px;
+    opacity: 0;
+}
+
+
+.main-text-of-fourth-page{
+
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-paregraph-of-fourth-page{
+    margin-top: 150px;
+}
+
+.big-number{
+    display: flex;
+    position: relative;
+}
+
+.big-number > h2{
+    position: absolute;
+    font-size: 180px;
+    opacity: 30%;
+}
+.big-number > span{
+    position: absolute;
+    background-color: transparent;
+    margin-top: 94px;
+    width: 250px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 900;
+    font-size: 18px;
+    margin-left: 75px;
+}
+
+.main-paregraph-of-fourth-page{
+    position: relative;
+    width: 600px;
+    margin-right: 70px;
+}
+
+.main-paregraph-of-fourth-page > p{
+    position: absolute;
+    padding-top: 50px;
+    font-size: 25px;
+    line-height: 32px;
+    
+}
+
+.border-for-fourth-page{
+    width: 64.68%;
+    height: 2px;
+    background: #7d7d7d;
+}
+
+/* ------------------------------------------------fifth-page--------------------------------- */
+.fifth-page{
+    margin-top: 600px;
+    align-items: center;
+   
+}
+
+.centar-text > h2{
+    font-size: 65px;
+    width: 750px;
+    text-align: center;
+    margin-left: 24%;
+}
+
+.container-fifth-page{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 80px;
+    gap: 50px;
+}
+
+.title-fifth-page{
+    width: 430px;
+    height: 250px;
+    border: 1px solid  #7d7d7d4f;
+}
+
+.title-fifth-page > span{
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.title-fifth-page > p{
+    display: flex;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* -----------------------------------------------sixth-page-------------------------------- */
+.sixth-page{
+    display: flex;
+    margin-top: 300px;
+
+}
+
+.left-text-of-sixth-page{
+    margin-left: 100px;
+   
+}
+
+.left-text-of-sixth-page > h2{
+    font-size: 56px;
+    width: 550px;
+    line-height: 80px;
+}
+
+.left-text-of-sixth-page > p{
+    font-size: 26px;
+    width: 670px;
+    margin-top: 30px;
+}
+
+.left-text-of-sixth-page > button{
+    width: 180px;
+    height: 50px;
+    margin-top: 70px;
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.img-of-sixth-page{
+    margin-top: -8%;
+    margin-left: 8%;
+  
+}
+
+
+/* ------------------------------------------------------wave-------------------------------------------*/
+.wavies > use{
+    animation: waveAround 12s linear infinite;
+    &:nth-child(1) { animation-delay:-2s;  }
+    &:nth-child(2) { animation-delay:-2s; animation-duration:5s }
+    &:nth-child(3) { animation-delay:-4s; animation-duration:3s }
+  }
+  
+  @keyframes waveAround{
+    0% { transform: translate(-90px , 0%) }
+    100% { transform: translate(85px , 0%) }
+  }
+
+
+/* ----------------------------------------last-page-------------------------------- */
+.last-page{
+    margin-top: -20px;
+    background:#18181b;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70vh;
+    color: #fefefe;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    margin-bottom: -90px;
+}
+
+.last-page-main-title > h2{
+    font-size: 30px;
+}
+
+.address-last-page > h6{
+    margin-top: 30px;
+    font-size: 15px;
+    width: 400px;
+}
+
+.work-of-our > h3{
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+.finaly-last-item > span{
+    width: 180vh;
+    height: 2px;
+    left: 5%;
+    background: #7d7d7d;
+}
+
+.finaly-last-item{
+   position: relative;
+    top: -12%; 
+   
+}
+
+.last-page-border{
+    position: absolute;
+}
+
+.copy-and-icons{
+    padding-bottom: 100px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+}
+
+.last-page-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    font-size: 20px;
+}
+
+.last-page-icons > a{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.last-page-copyright > P{
+    font-size: 17px;
+    color: #fefefe;
+    margin-right: 130px;
+}
